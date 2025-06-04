@@ -17,12 +17,12 @@ LOG_GROUP_ID = -1002621935143
 HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
 
-UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://t.me/+BNieZ3R_3qMyMGFl")
+UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://t.me/infinitygx_bot_support")
 UPSTREAM_BRANCH = os.getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/gxinfinity_support")
-SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/infinitygx_bot_support")
+SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/KALYUG_x_AKATSUKI")
+SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/KALYUG_x_AKATSUKI_1")
 PRIVACY_LINK = os.getenv("PRIVACY_LINK", "https://telegra.ph/Privacy-Policy-for-AviaxMusic-08-14")
 
 DURATION_LIMIT_MIN = int(os.getenv("DURATION_LIMIT", 10000))
