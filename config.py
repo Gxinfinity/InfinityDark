@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "29870111"))
-API_HASH = getenv("60848922c00cd07114ea65dae9ec9e13")
+API_ID = int(os.getenv("API_ID", "29870111"))
+API_HASH = os.getenv("60848922c00cd07114ea65dae9ec9e13")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("7527646500:AAHkuB3sTA6GAdwMvQD31AB-5rbzPY6gnyE")
+BOT_TOKEN = os.getenv("7527646500:AAHkuB3sTA6GAdwMvQD31AB-5rbzPY6gnyE")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://mikey:mikey@cluster0.zv6knh9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -19,7 +19,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://mikey:mikey@cluster0.zv6knh
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 10000))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002621935143"))
+LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", "-1002621935143"))
 
 # Get this value from @MissRose_Bot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID","7290350162"))
