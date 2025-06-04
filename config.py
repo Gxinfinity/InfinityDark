@@ -8,7 +8,7 @@ load_dotenv()
 # Required credentials
 API_ID = 29870111
 API_HASH = "60848922c00cd07114ea65dae9ec9e13"
-BOT_TOKEN = "7527646500:AAHkuB3sTA6GAdwMvQD31AB-5rbzPY6gnyE"
+BOT_TOKEN = "7527646500:AAG9TjsuLUL3UfinrV4fCHgCX-KkOevIdlA"
 MONGO_DB_URI = "mongodb+srv://mikey:mikey@cluster0.zv6knh9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 OWNER_ID = 7290350162
 LOG_GROUP_ID = -1002621935143
