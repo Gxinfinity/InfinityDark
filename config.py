@@ -17,7 +17,7 @@ LOG_GROUP_ID = -1002621935143
 HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
 
-UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://t.me/infinitygx_bot_support")
+UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://t.me/+BNieZ3R_3qMyMGFl")
 UPSTREAM_BRANCH = os.getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 
@@ -51,7 +51,7 @@ autoclean = []
 confirmer = {}
 
 # Image URLs
-START_IMG_URL = os.getenv("START_IMG_URL", "https://graph.org//file/25115719697ed91ef5672.jpg")
+START_IMG_URL = os.getenv("START_IMG_URL", "https://graph.org/file/0cdf5da0d9437a14013bb-caa73b03a7a607698f.jpg")
 PING_IMG_URL = os.getenv("PING_IMG_URL", "https://graph.org//file/389a372e8ae039320ca6c.png")
 PLAYLIST_IMG_URL = "https://graph.org//file/3dfcffd0c218ead96b102.png"
 STATS_IMG_URL = "https://graph.org//file/99a8a9c13bb01f9ac7d98.png"
