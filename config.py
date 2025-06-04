@@ -17,7 +17,7 @@ LOG_GROUP_ID = -1002621935143
 HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
 
-UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://github.com/SpyGamer7t2r/AviaxMusic")
+UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://t.me/infinitygx_bot_support")
 UPSTREAM_BRANCH = os.getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 
