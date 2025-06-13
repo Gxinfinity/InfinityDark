@@ -10,7 +10,7 @@ API_ID = 22565342
 API_HASH = "75e035926f72f2f4155a6f5f6e64be03"
 BOT_TOKEN = "7201420162:AAGxAlHuNHtf_OZKKBwrAZhhD6vX6PB4HgM"
 MONGO_DB_URI = "mongodb+srv://mikey:mikey@cluster0.zv6knh9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-OWNER_ID = 7290350162
+OWNER_ID = 7926944005
 LOG_GROUP_ID = -1002777786186
 
 # Optional / deployment-related
