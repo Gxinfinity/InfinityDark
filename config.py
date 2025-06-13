@@ -6,12 +6,12 @@ from pyrogram import filters
 load_dotenv()
 
 # Required credentials
-API_ID = 29870111
-API_HASH = "60848922c00cd07114ea65dae9ec9e13"
-BOT_TOKEN = "7527646500:AAG9TjsuLUL3UfinrV4fCHgCX-KkOevIdlA"
+API_ID = 22565342
+API_HASH = "75e035926f72f2f4155a6f5f6e64be03"
+BOT_TOKEN = "7201420162:AAGxAlHuNHtf_OZKKBwrAZhhD6vX6PB4HgM"
 MONGO_DB_URI = "mongodb+srv://mikey:mikey@cluster0.zv6knh9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 OWNER_ID = 7290350162
-LOG_GROUP_ID = -1002621935143
+LOG_GROUP_ID = -1002777786186
 
 # Optional / deployment-related
 HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
@@ -21,8 +21,8 @@ UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://t.me/infinitygx_bot_support"
 UPSTREAM_BRANCH = os.getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/KALYUG_x_AKATSUKI")
-SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/KALYUG_x_AKATSUKI_1")
+SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/dark_x_knight_musiczz_support")
+SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/dark_knight_support")
 PRIVACY_LINK = os.getenv("PRIVACY_LINK", "https://telegra.ph/Privacy-Policy-for-AviaxMusic-08-14")
 
 DURATION_LIMIT_MIN = int(os.getenv("DURATION_LIMIT", 10000))
@@ -51,7 +51,7 @@ autoclean = []
 confirmer = {}
 
 # Image URLs
-START_IMG_URL = os.getenv("START_IMG_URL", "https://graph.org/file/0cdf5da0d9437a14013bb-caa73b03a7a607698f.jpg")
+START_IMG_URL = os.getenv("START_IMG_URL", "https://graph.org/file/998d2db9c003c1625178c-21d9359fc3b61485f7.jpg")
 PING_IMG_URL = os.getenv("PING_IMG_URL", "https://graph.org//file/389a372e8ae039320ca6c.png")
 PLAYLIST_IMG_URL = "https://graph.org//file/3dfcffd0c218ead96b102.png"
 STATS_IMG_URL = "https://graph.org//file/99a8a9c13bb01f9ac7d98.png"
